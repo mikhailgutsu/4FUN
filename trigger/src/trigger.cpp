@@ -1,5 +1,10 @@
 #include "../incl/trigger.h"
 
+char trigger_INIT()
+{
+    return 0x01;
+}
+
 char checkerBUTTON_UP()
 {
     if (GetAsyncKeyState(VK_UP) & 0x8000)

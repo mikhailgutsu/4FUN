@@ -6,6 +6,9 @@
 #include <windows.h>
 #include <ctime>
 
+#define E_OK            0x01
+#define E_NOT_OK        0x00
+
 class Logger {
 private:
 
