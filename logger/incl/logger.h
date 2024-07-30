@@ -6,6 +6,15 @@
 #include <windows.h>
 #include <ctime>
 
+//<------------------------------------- MODULE INCLUDE
+#include "../../coin_master/incl/coin_master.h"
+#include "../../dynamic_menu/incl/dynamic_menu.h"
+#include "../../trigger/incl/trigger.h"
+///////////////////////////////////////////////////////
+
+#define E_OK            0x01
+#define E_NOT_OK        0x00
+
 class Logger {
 private:
 

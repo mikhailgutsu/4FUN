@@ -1,7 +1,9 @@
-#include <windows.h>
-
 #ifndef CHECKER_H
 #define CHECKER_H
+
+#include <windows.h>
+
+char trigger_INIT();
 
 char checkerBUTTON_UP();
 char checkerBUTTON_DOWN();

@@ -7,6 +7,7 @@
 //<----------------------------------------------------------- LEGACY
 #include "logger/logger_main.cpp"
 #include "trigger/trigger_main.cpp"
+#include "dynamic_menu/dymanic_menu_main.cpp"
 /////////////////////////////////////////////////////////////////////
 
 //<----------------------------------------------------------- DEFINE
@@ -15,6 +16,7 @@
 
 int main()
 {
+    Init();
 
     start()
     {
