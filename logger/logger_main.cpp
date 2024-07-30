@@ -1,0 +1,2 @@
+#include "src/coin_master.cpp"
+
