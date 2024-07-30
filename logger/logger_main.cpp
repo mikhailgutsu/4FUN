@@ -1,2 +1,2 @@
-#include "src/coin_master.cpp"
+#include "src/logger.cpp"
 
